@@ -1,5 +1,11 @@
-ipfs-api
-========
+# ipfs-api BEAKER HACK FORK
+
+---
+
+This fork strips out the libp2p-crypto dependency, which I was having trouble getting to build in Beaker.
+It turns out that [ipfs-api](npm.im/ipfs-api) didn't need it.
+
+---
 
 [![](https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square)](http://ipn.io)
 [![](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](http://ipfs.io/)
